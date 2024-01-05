@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e3c8c090a27b96428bb9e3514c552c0, type: 3}
+  m_Name: Player_Inventory
+  m_EditorClassIdentifier: 
+  MaxSlotsInventory: 32
+  Container:
+  - item: {fileID: 11400000, guid: ee08f93c964aaec40be82a87da9b6c9b, type: 2}
+    amount: 0
+  - item: {fileID: 11400000, guid: b8295b464f44b12479c893981648d29b, type: 2}
+    amount: 20
+  - item: {fileID: 11400000, guid: 450d17efa1aeb364e828b0e99c9c998d, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: ca936f5b49d2f224b80dc6eab2c05e91, type: 2}
+    amount: 1
